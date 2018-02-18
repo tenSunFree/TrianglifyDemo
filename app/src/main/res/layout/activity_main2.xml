@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c05640"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.gcssloop.widget.RCRelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:round_corner="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#901ecfd6"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.gcssloop.widget.RCRelativeLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:round_corner="10dp">
+
+                    <com.sdsmdg.kd.trianglify.views.TrianglifyView
+                        android:id="@+id/trianglify_main_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        app:bleedX="75dp"
+                        app:bleedY="75dp"
+                        app:cellSize="30dp"
+                        app:fillStrokes="true"
+                        app:fillTriangle="true"
+                        app:gridType="rectangle"
+                        app:palette="RdBu"
+                        app:randomColoring="false"
+                        app:variance="5dp"/>
+                </com.gcssloop.widget.RCRelativeLayout>
+
+                <com.gcssloop.widget.RCRelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:round_corner="10dp">
+
+                    <com.sdsmdg.kd.trianglify.views.TrianglifyView
+                        android:id="@+id/trianglify_main_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:bleedX="75dp"
+                        app:bleedY="75dp"
+                        app:cellSize="30dp"
+                        app:fillStrokes="true"
+                        app:fillTriangle="true"
+                        app:gridType="rectangle"
+                        app:palette="RdBu"
+                        app:randomColoring="false"
+                        app:variance="5dp"/>
+                </com.gcssloop.widget.RCRelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.gcssloop.widget.RCRelativeLayout
+                    android:layout_marginRight="20dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:round_corner="10dp">
+
+                    <com.sdsmdg.kd.trianglify.views.TrianglifyView
+                        android:id="@+id/trianglify_main_view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:bleedX="75dp"
+                        app:bleedY="75dp"
+                        app:cellSize="30dp"
+                        app:fillStrokes="true"
+                        app:fillTriangle="true"
+                        app:gridType="rectangle"
+                        app:palette="RdBu"
+                        app:randomColoring="false"
+                        app:variance="5dp"/>
+                </com.gcssloop.widget.RCRelativeLayout>
+
+                <com.gcssloop.widget.RCRelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:round_corner="10dp">
+
+                    <com.sdsmdg.kd.trianglify.views.TrianglifyView
+                        android:id="@+id/trianglify_main_view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:bleedX="75dp"
+                        app:bleedY="75dp"
+                        app:cellSize="30dp"
+                        app:fillStrokes="true"
+                        app:fillTriangle="true"
+                        app:gridType="rectangle"
+                        app:palette="RdBu"
+                        app:randomColoring="false"
+                        app:variance="5dp"/>
+                </com.gcssloop.widget.RCRelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.gcssloop.widget.RCRelativeLayout>
+</LinearLayout>
